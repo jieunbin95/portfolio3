@@ -5,7 +5,7 @@ const About = () => {
     <section name='about' className='w-full h-screen'>
       <div className='flex flex-col justify-center p-4 max-w-screen-lg mx-auto'>
         <div className='text-center mt-20'>
-          <h1 className='text-5xl font-bold md:pt-20'>
+          <h1 className='text-5xl font-bold md:pt-10'>
             About this company
           </h1>
           <p className='py-6 text-3xl text-gray-500'>
