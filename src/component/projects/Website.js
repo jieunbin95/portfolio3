@@ -42,7 +42,7 @@ const Website = () => {
                 <IoCheckmarkDoneSharp className="text-2xl mr-2" />
                 <div className="mr-[130px] text-2xl font-bold ">GitHub</div>
                 <a
-                  href="https://github.com/jieunbin95/iPad"
+                  href="https://github.com/jieunbin95/portfolio3"
                   className="hover:text-slate-400"
                 >
                   https://github.com/jieunbin95/portfolio
@@ -52,7 +52,7 @@ const Website = () => {
                 <IoCheckmarkDoneSharp className="text-2xl mr-2" />
                 <div className="mr-40 text-2xl font-bold">URL</div>
                 <a
-                  href="https://elaborate-medovik-0574d6.netlify.app/"
+                  href="https://melodic-sopapillas-c3d8d2.netlify.app/"
                   className="hover:text-slate-400"
                 >
                   https://portfolio.website.com
