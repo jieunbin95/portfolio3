@@ -1,0 +1,15 @@
+.main_text {
+  display: inline;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out;
+  background-position: center left;
+  background-size: 100% 4px;
+  background-image: linear-gradient(to right, red, red);
+  padding-bottom: 4px;
+}
+
+.main_text:hover {
+  background-position: bottom left;
+  background-size: 100% (4px/2);
+  font-style: italic;
+}

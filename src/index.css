@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  li{
-    @apply p-4
+  li {
+    @apply p-4;
   }
 
   button {
     @apply text-white bg-zinc-800 
            hover:bg-slate-400 hover:text-black
-           duration-500
+           duration-500;
   }
 }
 
-
 body {
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", "Noto Serif KR";
 }
