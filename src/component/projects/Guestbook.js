@@ -4,8 +4,8 @@ import { IoCheckmarkDoneSharp } from "react-icons/io5";
 
 const Guestbook = () => {
   return (
-    <div className="max-w-[1540px] mx-auto pb-40 pt-10">
-      <div className="mt-10 items-center w-[80%] mx-auto">
+    <div className="pb-40 pt-10">
+      <div className="mt-10 items-center xl:w-[80%] mx-auto">
         <div className="px-4 py-5">
           <h3 className="text-5xl font-bold text-center p-4 mb-5">
             <span className="font-thin text-slate-300 mr-2">05.</span>
@@ -14,7 +14,7 @@ const Guestbook = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div>
+          <div className="sm:right-5 relative right-20 xl:mr-20 ">
             <ReactPlayer
               url={process.env.PUBLIC_URL + "/videos/guest.mp4"}
               width="700px"
@@ -25,8 +25,8 @@ const Guestbook = () => {
             />
           </div>
 
-          <div className="flex flex-col mx-auto">
-            <p className=" w-[600px] mx-auto py-7 px-2 leading-10 text-ml">
+          <div className="md:relative md:left-5 flex flex-col mx-auto ">
+            <p className="md:w-[450px] xl:w-[600px] mx-auto py-7 px-2 leading-10 text-ml border-b-2">
               <span className="font-bold">
                 숙박 후 방문객이 후기를 남길 수 있도록 만든 방명록 웹사이트
                 입니다.
@@ -44,12 +44,10 @@ const Guestbook = () => {
               점입니다.
             </p>
 
-            <hr />
-
             <div className="p-5 mt-5">
               <div className="flex mb-3">
                 <IoCheckmarkDoneSharp className="text-2xl mr-2" />
-                <div className="mr-[120px] text-2xl font-bold mb-4 ">
+                <div className="mr-[50px] xl:mr-[120px] text-2xl font-bold mb-4 ">
                   GitHub
                 </div>
                 <a
@@ -62,7 +60,9 @@ const Guestbook = () => {
 
               <div className="flex">
                 <IoCheckmarkDoneSharp className="text-2xl mr-2" />
-                <div className=" text-2xl font-bold mr-[100px]">UseSkills</div>
+                <div className="mr-[30px] text-2xl font-bold xl:mr-[100px]">
+                  UseSkills
+                </div>
                 <div className="font-semibold pt-2">Next.js / Json-Server</div>
               </div>
             </div>

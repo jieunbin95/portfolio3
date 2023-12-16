@@ -4,8 +4,8 @@ import { IoCheckmarkDoneSharp } from "react-icons/io5";
 
 const Youtube = () => {
   return (
-    <div className="max-w-[1540px] mx-auto pb-40">
-      <div className="mt-10 items-center w-[80%] mx-auto ">
+    <div className="pb-40">
+      <div className="mt-10 items-center xl:w-[80%] mx-auto ">
         <div className="px-4 py-5">
           <h3 className="text-5xl font-bold text-center p-4 mb-5">
             <span className="font-thin text-slate-300 mr-2">06.</span>
@@ -13,9 +13,9 @@ const Youtube = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="flex flex-col mx-auto">
-            <p className=" w-[600px] mx-auto p-5 leading-10 text-ml">
+        <div className="md:relative md:left-5 grid grid-cols-1 md:grid-cols-2">
+          <div className="flex flex-col mx-auto md:relative md:right-5">
+            <p className="md:w-[450px] xl:w-[600px] mx-auto p-5 leading-10 text-ml border-b-2">
               <span className="font-bold">
                 Youtube 홈페이지를 참고하여 만든 웹사이트입니다.
               </span>{" "}
@@ -30,8 +30,6 @@ const Youtube = () => {
               재사용성을 높여주었고, 어떤 차이가 있는지 직접 사용해보면며 느낄
               수 있었습니다.
             </p>
-
-            <hr />
 
             <div className="p-5 mt-5">
               <div className="flex mb-3">

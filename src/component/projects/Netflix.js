@@ -4,8 +4,8 @@ import { IoCheckmarkDoneSharp } from "react-icons/io5";
 
 const Netflix = () => {
   return (
-    <div className="max-w-[1540px] mx-auto pb-40">
-      <div className="mt-10 items-center w-[80%] mx-auto ">
+    <div className="pb-40">
+      <div className="mt-10 items-center xl:w-[80%] mx-auto ">
         <div className="px-4 py-5">
           <h3 className="text-5xl font-bold text-center p-4 mb-5">
             <span className="font-thin text-slate-300 mr-2">04.</span>
@@ -13,9 +13,9 @@ const Netflix = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="flex flex-col mx-auto">
-            <p className=" w-[600px] mx-auto p-5 leading-10 text-ml">
+        <div className="md:relative md:left-5 grid grid-cols-1 md:grid-cols-2">
+          <div className="flex flex-col mx-auto md:relative md:right-5">
+            <p className="md:w-[450px] xl:w-[600px] mx-auto p-5 leading-10 text-ml border-b-2">
               <span className="font-bold">
                 학습을 목적으로 구현한 영화 웹사이트입니다.
               </span>{" "}
@@ -30,8 +30,6 @@ const Netflix = () => {
               환경에서 발생하는 문제를 직면하고, 해결에 대한 고민을 할 수 있어서
               좋은 경험이었습니다.
             </p>
-
-            <hr />
 
             <div className="p-5 mt-5">
               <div className="flex mb-3">

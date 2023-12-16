@@ -13,44 +13,46 @@ const Support = () => {
       </div>
 
       <div className="max-w-[1240px] mx-auto text-white relative">
-        <div className="px-4 pt-10 md:pb-5">
-          <h3 className="pt-20 text-5xl font-bold text-center">My Skills</h3>
+        <div className="pb-5 px-4 pt-10 md:pb-5">
+          <h3 className="pt-10 md:pt-20 text-5xl font-bold text-center">
+            My Skills
+          </h3>
         </div>
 
         <div className="grid grid-cols-1 md:pt-10 text-black lg:grid-cols-2 gap-x-8">
-          <div className="bg-white shadow-2xl rounded-xl ">
-            <div className="p-8">
+          <div className="bg-white shadow-2xl rounded-xl m-10 xl:m-0">
+            <div className="p-5 md:p-8">
               <h3 className="py-6 text-4xl font-bold">Language.</h3>
               <img
-                className="shadow-2xl h-24 hover:scale-110 cursor-pointer transition-all hover:rounded-lg"
+                className="h-20 shadow-2xl md:h-24 hover:scale-110 cursor-pointer transition-all hover:rounded-lg"
                 alt="javascript"
                 src="https://velog.velcdn.com/images/benis/post/08a48f90-535b-4e3e-8ca9-03848338438d/javascript%20(1).png"
               />
 
               <h3 className="py-6 text-4xl font-bold">Markup.</h3>
               <img
-                className="shadow-2xl h-24 w-40 inline-block mr-3 hover:scale-110 cursor-pointer transition-all hover:rounded-lg"
+                className="h-20 shadow-2xl md:h-24 md:w-40 inline-block mr-3 hover:scale-110 cursor-pointer transition-all hover:rounded-lg"
                 alt="html"
                 src="https://velog.velcdn.com/images/lsx2003/post/672e0994-cc00-4da9-8753-3e0ffac36bb4/image.png"
               />
               <img
                 alt="css"
-                className="shadow-2xl h-24 inline-block mr-3 hover:scale-110 cursor-pointer transition-all hover:rounded-lg"
+                className="h-20 shadow-2xl md:h-24 inline-block mr-3 hover:scale-110 cursor-pointer transition-all hover:rounded-lg"
                 src="https://velog.velcdn.com/cloudflare/untiring_dev/65959c19-dca1-4470-a203-13fa34a3c3cf/css.png"
               />
               <img
                 alt="scss"
-                className="shadow-2xl h-24 w-40 inline-block hover:scale-110 cursor-pointer transition-all hover:rounded-lg"
+                className="h-20 w-[150px] shadow-2xl md:h-24 md:w-40 inline-block hover:scale-110 cursor-pointer transition-all hover:rounded-lg"
                 src="https://images.velog.io/images/hsw7852/post/e4375544-3fb1-46d0-a493-dc21ecd947e0/scsslgoo.png"
               />
             </div>
           </div>
-          <div className="bg-white shadow-2xl rounded-xl grid-cols-2 ">
-            <div className="p-8">
+          <div className="bg-white shadow-2xl rounded-xl grid-cols-2 mx-10 xl:mx-0">
+            <div className="p-5 md:p-8">
               <h3 className="py-6 text-4xl font-bold">Library/Framework.</h3>
 
               <img
-                className="shadow-2xl h-20 inline-block m-2 hover:scale-110 cursor-pointer transition-all hover:rounded-lg"
+                className=" shadow-2xl h-20 inline-block m-2 hover:scale-110 cursor-pointer transition-all hover:rounded-lg"
                 alt="react"
                 src="https://miro.medium.com/v2/resize:fit:1400/1*omjhQA7wTEfAAkKjwzRfsA.png"
               />

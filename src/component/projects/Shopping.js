@@ -4,8 +4,8 @@ import { IoCheckmarkDoneSharp } from "react-icons/io5";
 
 const Shopping = () => {
   return (
-    <div className="max-w-[1540px] mx-auto pb-40">
-      <div className="mt-10 items-center w-[80%] mx-auto ">
+    <div className="pb-40">
+      <div className="mt-10 items-center xl:w-[80%] mx-auto ">
         <div className="px-4 py-5">
           <h3 className="text-5xl font-bold text-center p-4 mb-5">
             <span className="font-thin text-slate-300 mr-2">02.</span>
@@ -13,9 +13,9 @@ const Shopping = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="flex flex-col mx-auto">
-            <p className=" w-[600px] mx-auto p-5 leading-10 text-ml">
+        <div className="md:relative md:left-5 grid grid-cols-1 md:grid-cols-2">
+          <div className="flex flex-col mx-auto md:relative md:right-5 ">
+            <p className="md:w-[450px] xl:w-[600px] mx-auto p-5 leading-10 text-ml border-b-2">
               <span className="font-bold">
                 포트폴리오 용도로 제작한 쇼핑몰 웹사이트입니다.
               </span>{" "}
@@ -29,8 +29,6 @@ const Shopping = () => {
               숙지할 수 있었으며, 사용자가 인증(로그인)이 되어 있을 때만 특정
               페이지에 접근할 수 있도록 PrivateRouter기능을 구현하였습니다.
             </p>
-
-            <hr />
 
             <div className="p-5 mt-5">
               <div className="flex mb-3">
@@ -63,8 +61,8 @@ const Shopping = () => {
             </div>
           </div>
 
-          <div className="p-5">
-            <img src={shopping} alt="ipad" />
+          <div className="p-5 ">
+            <img src={shopping} alt="shopping" />
           </div>
         </div>
       </div>

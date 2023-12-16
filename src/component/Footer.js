@@ -40,7 +40,7 @@ const Footer = () => {
       )}
 
       <div className="flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500">
-        <p className="py-4">
+        <p className="sm:w-[400px] py-3">
           Copyright © {new Date().getFullYear()}. JiEun Vin. All rights
           reserved.
         </p>
