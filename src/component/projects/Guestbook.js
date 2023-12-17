@@ -14,7 +14,7 @@ const Guestbook = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="sm:right-5 relative right-20 xl:mr-20 ">
+          <div className="sm:right-2 relative right-20 xl:mr-20 ">
             <ReactPlayer
               url={process.env.PUBLIC_URL + "/videos/guest.mp4"}
               width="700px"
@@ -44,26 +44,38 @@ const Guestbook = () => {
               점입니다.
             </p>
 
-            <div className="p-5 mt-5">
-              <div className="flex mb-3">
-                <IoCheckmarkDoneSharp className="text-2xl mr-2" />
-                <div className="mr-[50px] xl:mr-[120px] text-2xl font-bold mb-4 ">
+            <div className="p-5 mt-5  grid-cols-1 grid sm:grid-cols-2">
+              <div className="hidden sm:block text-2xl font-bold ">
+                <div className="p-2  ">
+                  <IoCheckmarkDoneSharp className="mr-2 inline-block" />
                   GitHub
                 </div>
-                <a
-                  href="https://github.com/jieunbin95/guest_book"
-                  className="hover:text-slate-400"
-                >
-                  https://github.com/jieunbin95/guestbook
-                </a>
-              </div>
 
-              <div className="flex">
-                <IoCheckmarkDoneSharp className="text-2xl mr-2" />
-                <div className="mr-[30px] text-2xl font-bold xl:mr-[100px]">
+                <div className="p-2 ">
+                  <IoCheckmarkDoneSharp className="mr-2 inline-block" />
                   UseSkills
                 </div>
-                <div className="font-semibold pt-2">Next.js / Json-Server</div>
+              </div>
+
+              <div>
+                <div className="p-2">
+                  <a
+                    href="https://github.com/jieunbin95/iPad"
+                    className="hover:text-slate-400"
+                  >
+                    <span className="sm:hidden mr-6 font-bold text-[18px]">
+                      &#x025B8;GitHub
+                    </span>
+                    https://github.com/jieunbin95/guestbook
+                  </a>
+                </div>
+
+                <div className="font-semibold p-2 mt-2">
+                  <span className="sm:hidden mr-6 font-bold text-[18px]">
+                    &#x025B8;UseSkills
+                  </span>
+                  Next.js / Json-Server
+                </div>
               </div>
             </div>
           </div>

@@ -31,31 +31,53 @@ const Netflix = () => {
               좋은 경험이었습니다.
             </p>
 
-            <div className="p-5 mt-5">
-              <div className="flex mb-3">
-                <IoCheckmarkDoneSharp className="text-2xl mr-2" />
-                <div className="mr-[120px] text-2xl font-bold ">GitHub</div>
-                <a
-                  href="https://github.com/jieunbin95/netflix-website"
-                  className="hover:text-slate-400"
-                >
-                  https://github.com/jieunbin95/netflix
-                </a>
+            <div className="p-5 mt-5  grid-cols-1 grid sm:grid-cols-2">
+              <div className="hidden sm:block text-2xl font-bold ">
+                <div className="p-2  ">
+                  <IoCheckmarkDoneSharp className="mr-2 inline-block" />
+                  GitHub
+                </div>
+
+                <div className="p-2">
+                  <IoCheckmarkDoneSharp className="mr-2 inline-block" />
+                  URL
+                </div>
+
+                <div className="p-2 ">
+                  <IoCheckmarkDoneSharp className="mr-2 inline-block" />
+                  UseSkills
+                </div>
               </div>
-              <div className="flex mb-3">
-                <IoCheckmarkDoneSharp className="text-2xl mr-2" />
-                <div className="mr-[150px] text-2xl font-bold">URL</div>
-                <a
-                  href="https://tourmaline-vacherin-291a7c.netlify.app/"
-                  className="hover:text-slate-400"
-                >
-                  https://netflix.website.com
-                </a>
-              </div>
-              <div className="flex">
-                <IoCheckmarkDoneSharp className="text-2xl mr-2" />
-                <div className=" text-2xl font-bold mr-[100px]">UseSkills</div>
-                <div className="font-semibold pt-2">
+
+              <div>
+                <div className="p-2">
+                  <a
+                    href="https://github.com/jieunbin95/iPad"
+                    className="hover:text-slate-400"
+                  >
+                    <span className="sm:hidden mr-6 font-bold text-[18px]">
+                      &#x025B8;GitHub
+                    </span>
+                    https://github.com/jieunbin95/netflix
+                  </a>
+                </div>
+
+                <div className="p-2 mt-2">
+                  <a
+                    href="https://elaborate-medovik-0574d6.netlify.app/"
+                    className="hover:text-slate-400"
+                  >
+                    <span className="sm:hidden mr-6 font-bold text-[18px]">
+                      &#x025B8;URL
+                    </span>
+                    https://netflix.website.com
+                  </a>
+                </div>
+
+                <div className="font-semibold p-2 mt-2">
+                  <span className="sm:hidden mr-6 font-bold text-[18px]">
+                    &#x025B8;UseSkills
+                  </span>
                   React / Axios / Styled-Components
                 </div>
               </div>

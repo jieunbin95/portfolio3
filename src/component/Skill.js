@@ -47,6 +47,7 @@ const Support = () => {
               />
             </div>
           </div>
+
           <div className="bg-white shadow-2xl rounded-xl grid-cols-2 mx-10 xl:mx-0">
             <div className="p-5 md:p-8">
               <h3 className="py-6 text-4xl font-bold">Library/Framework.</h3>
