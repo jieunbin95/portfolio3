@@ -11,7 +11,7 @@ const Feature = () => {
   return (
     <section
       name="project"
-      className="w-full my-[500px] sm:my-[400px] md:my-[400px] xl:my-40"
+      className="w-full my-[650px] sm:my-[400px] md:my-[450px] xl:my-40"
     >
       <div className="flex flex-col justify-center items-center">
         <div className="px-4 pt-20 sm:pt-10 ">

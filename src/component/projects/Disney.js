@@ -7,13 +7,13 @@ const Disney = () => {
     <div className="pb-40">
       <div className="mt-10 items-center xl:w-[80%] mx-auto ">
         <div className="px-4 py-5">
-          <h3 className="text-5xl font-bold text-center p-4 mb-5">
+          <h3 className="text-3xl sm:text-5xl font-bold text-center p-4 mb-5">
             <span className="font-thin text-slate-300 mr-2">03.</span>
             Disney-Website
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="p-10 sm:p-2 grid grid-cols-1 md:grid-cols-2">
           <div className="md:relative md:left-5 p-5">
             <img src={disney} alt="ipad" />
           </div>
@@ -35,7 +35,7 @@ const Disney = () => {
               차별적인 유용성을 느낄 수 있었습니다.
             </p>
 
-            <div className="p-5 mt-5  grid-cols-1 grid sm:grid-cols-2">
+            <div className="mx-auto max-w-[600px] p-5 mt-5  grid-cols-1 grid sm:grid-cols-2">
               <div className="hidden sm:block text-2xl font-bold ">
                 <div className="p-2  ">
                   <IoCheckmarkDoneSharp className="mr-2 inline-block" />
@@ -55,31 +55,31 @@ const Disney = () => {
 
               <div>
                 <div className="p-2">
+                  <span className="sm:hidden block font-bold text-[18px]">
+                    &#x025B8;GitHub
+                  </span>
                   <a
                     href="https://github.com/jieunbin95/iPad"
-                    className="hover:text-slate-400"
+                    className="hover:text-slate-400 break-words"
                   >
-                    <span className="sm:hidden mr-6 font-bold text-[18px]">
-                      &#x025B8;GitHub
-                    </span>
-                    https://github.com/jieunbin95/disney
+                    https://github/jieunbin95/disney
                   </a>
                 </div>
 
                 <div className="p-2 mt-2">
+                  <span className="sm:hidden block font-bold text-[18px]">
+                    &#x025B8;URL
+                  </span>
                   <a
                     href="https://elaborate-medovik-0574d6.netlify.app/"
-                    className="hover:text-slate-400"
+                    className="hover:text-slate-400 break-words"
                   >
-                    <span className="sm:hidden mr-6 font-bold text-[18px]">
-                      &#x025B8;URL
-                    </span>
                     https://disney.website.com
                   </a>
                 </div>
 
                 <div className="font-semibold p-2 mt-2">
-                  <span className="sm:hidden mr-6 font-bold text-[18px]">
+                  <span className="sm:hidden block font-bold text-[18px]">
                     &#x025B8;UseSkills
                   </span>
                   React / Redux-toolkit / Fire-Base / Styled-Components

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section name="about" className="w-full h-screen">
       <div className="flex flex-col justify-center items-center p-4 max-w-screen-lg mx-auto">
-        <div className="mt-40 text-center md:mt-10 ">
+        <div className="mt-[80px] sm:mt-[150px] text-center md:mt-10 ">
           <h1 className="text-5xl font-bold md:pt-20">About Me</h1>
           <p className="py-6 sm:text-base text-gray-500 md:text-xl xl:text-2xl">
             &#x0201C; 문제해결 능력을 키워 보다 더 나은 프론트엔드 개발자로
