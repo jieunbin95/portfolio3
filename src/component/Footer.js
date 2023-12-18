@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BiLogoVimeo } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
 import { FaArrowUpAZ } from "react-icons/fa6";
+import { gsap } from "gsap";
 
 const Footer = () => {
   const [showBtn, setShowbtn] = useState(false);
@@ -17,8 +18,16 @@ const Footer = () => {
     const handleShowBtn = () => {
       if (window.scrollY > 3000) {
         setShowbtn(true);
+        gsap.to(".arrow", {
+          duration: 0.6,
+          x: -100,
+        });
       } else {
         setShowbtn(false);
+        gsap.from(".arrow", {
+          duration: 1,
+          x: 100,
+        });
       }
     };
 
@@ -33,7 +42,7 @@ const Footer = () => {
       {showBtn && (
         <div
           onClick={scrollToTop}
-          className="text-4xl text-black fixed bottom-28 right-10 border-2 p-2 border-black rounded-ml cursor-pointer hover:text-current hover:border-transparent transition-all"
+          className="arrow text-4xl text-black fixed bottom-28 right-[-80px] border-2 p-2 border-black rounded-ml cursor-pointer hover:text-current hover:border-transparent transition-all"
         >
           <FaArrowUpAZ />
         </div>
