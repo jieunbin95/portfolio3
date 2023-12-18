@@ -23,8 +23,7 @@ const Footer = () => {
           x: -100,
         });
       } else {
-        setShowbtn(false);
-        gsap.from(".arrow", {
+        gsap.to(".arrow", {
           duration: 1,
           x: 100,
         });
