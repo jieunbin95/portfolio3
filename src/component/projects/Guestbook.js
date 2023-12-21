@@ -63,7 +63,7 @@ const Guestbook = () => {
                     &#x025B8;GitHub
                   </span>
                   <a
-                    href="https://github.com/jieunbin95/iPad"
+                    href="https://github.com/jieunbin95/guest_book"
                     className="hover:text-slate-400 break-words"
                   >
                     https://github/jieunbin95/guestbook

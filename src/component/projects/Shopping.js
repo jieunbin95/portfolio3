@@ -54,7 +54,7 @@ const Shopping = () => {
                     &#x025B8;GitHub
                   </span>
                   <a
-                    href="https://github.com/jieunbin95/iPad"
+                    href="https://github.com/jieunbin95/Website-react"
                     className="hover:text-slate-400 break-words"
                   >
                     https://github/jieunbin95/shopping
@@ -66,7 +66,7 @@ const Shopping = () => {
                     &#x025B8;URL
                   </span>
                   <a
-                    href="https://elaborate-medovik-0574d6.netlify.app/"
+                    href="https://golden-pastelito-a517d5.netlify.app/"
                     className="hover:text-slate-400 break-words"
                   >
                     https://shoppingmall.website.com

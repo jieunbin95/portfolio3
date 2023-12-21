@@ -59,7 +59,7 @@ const Website = () => {
                     &#x025B8;GitHub
                   </span>
                   <a
-                    href="https://github.com/jieunbin95/iPad"
+                    href="https://github.com/jieunbin95/portfolio3"
                     className="hover:text-slate-400 break-words"
                   >
                     https://github/jieunbin95/portfolio
@@ -71,7 +71,7 @@ const Website = () => {
                     &#x025B8;URL
                   </span>
                   <a
-                    href="https://elaborate-medovik-0574d6.netlify.app/"
+                    href="https://melodic-sopapillas-c3d8d2.netlify.app/"
                     className="hover:text-slate-400 break-words"
                   >
                     https://portfolio.website.com

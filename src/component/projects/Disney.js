@@ -59,7 +59,7 @@ const Disney = () => {
                     &#x025B8;GitHub
                   </span>
                   <a
-                    href="https://github.com/jieunbin95/iPad"
+                    href="https://github.com/jieunbin95/react-disney-website/tree/master"
                     className="hover:text-slate-400 break-words"
                   >
                     https://github/jieunbin95/disney
@@ -71,7 +71,7 @@ const Disney = () => {
                     &#x025B8;URL
                   </span>
                   <a
-                    href="https://elaborate-medovik-0574d6.netlify.app/"
+                    href="https://react-disney-plus-website.firebaseapp.com/"
                     className="hover:text-slate-400 break-words"
                   >
                     https://disney.website.com

@@ -55,7 +55,7 @@ const Youtube = () => {
                     &#x025B8;GitHub
                   </span>
                   <a
-                    href="https://github.com/jieunbin95/iPad"
+                    href="https://github.com/jieunbin95/react-sass-youtube"
                     className="hover:text-slate-400 break-words"
                   >
                     https://github/jieunbin95/youtube
@@ -67,7 +67,7 @@ const Youtube = () => {
                     &#x025B8;URL
                   </span>
                   <a
-                    href="https://elaborate-medovik-0574d6.netlify.app/"
+                    href="https://clinquant-crumble-647cd3.netlify.app/"
                     className="hover:text-slate-400 break-words"
                   >
                     https://youtube.website.com
